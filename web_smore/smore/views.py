@@ -207,57 +207,33 @@ def com_chart(request):
   },
   "data": [
     {
-      "label": "Travel",
+      "label": "제로웨이스트 스타터키트",
       "value": "41"
     },
     {
-      "label": "Adver",
+      "label": "친환경 보냉백",
       "value": "39"
     },
     {
-      "label": "Other",
+      "label": "덴탈 케어 세트",
       "value": "38"
     },
     {
-      "label": "Real",
+      "label": "종합 선물 세트",
       "value": "32"
     },
     {
-      "label": "Communic",
+      "label": "내추럴 파우치",
       "value": "26"
     },
     {
-      "label": "Consn",
+      "label": "내추럴 디쉬 바 그린하모니",
       "value": "25"
     },
     {
-      "label": "Enteent",
-      "value": "25"
+      "label": "친환경 셀룰로오스 에코 행주(토끼)",
+      "value": "20"
     },
-    {
-      "label": "Stam",
-      "value": "24"
-    },
-    {
-      "label": "Tra",
-      "value": "23"
-    },
-    {
-      "label": "Utes",
-      "value": "22"
-    },
-    {
-      "label": "Aee",
-      "value": "18"
-    },
-    {
-      "label": "Bng",
-      "value": "16"
-    },
-    {
-      "label": "fssssssssss",
-      "value": "15"
-    }
   ]
 }""")
     chartObj2 = FusionCharts( 'doughnut2d', 'ex5', '650', '350', 'chart-5', 'json', """{
@@ -266,7 +242,6 @@ def com_chart(request):
     "subcaption": "2021년 구매자 통계",
     "showpercentvalues": "1",
     "defaultcenterlabel": "연령대 통계  ",
-    "paletteColors": "#e68dcf,#6d9bdf,#ff4868,#B0D67A,#894523",
     "aligncaptionwithcanvas": "0",
     "captionpadding": "0",
     "decimals": "1",
@@ -302,7 +277,6 @@ def com_chart(request):
     "caption": "구매자 성별",
     "subcaption": "2021년 구매자 통계",
     "showpercentvalues": "1",
-    "paletteColors": "#e68dcf,#6d9bdf,#ff4868,#B0D67A,#894523",
     "defaultcenterlabel": "성별",
     "aligncaptionwithcanvas": "0",
     "captionpadding": "0",
