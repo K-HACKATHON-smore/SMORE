@@ -28,8 +28,8 @@
 <body>
   <div class="sidebar close">
     <div class="logo-details">
-      <i class='bx bxl-c-plus-plus'></i>
-      <span class="logo_name">CodingLab</span>
+      <i><img src="{% static 'img/스모어그림.png' %}" alt="X" width="50" height="50"></i>
+      <span class="logo_name">SMORE</span>
     </div>
     <ul class="nav-links">
       <li>
@@ -88,6 +88,7 @@
         <ul class="sub-menu blank">
           <li><a class="link_name" href="{% url 'com_chart' %}">company chart</a></li>
           <li><a class="link_name" href="{% url 'product_chart' %}">product chart</a></li>
+          <li><a class="link_name" href="{% url 'research_chart' %}">research chart</a></li>
         </ul>
       </li>
       <li>
